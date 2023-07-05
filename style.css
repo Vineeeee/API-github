@@ -1,0 +1,126 @@
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: var(--background-color);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    min-width: 600px;
+    border-radius: 10px;
+    padding-top: 80px;
+    gap: 15px;
+    margin: 10px;
+    position: relative;
+    width: 300px;
+    transition: 0.6s ease-in;
+}
+
+.profile{
+    min-width: 600px;
+}
+
+svg{
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 116, 139);
+    margin-left: 20px;
+}
+
+h1,h3,p{
+    padding-left: 10px;
+}
+
+ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.6s ease-out;
+}
+
+span{
+    background-color: #6959CD;
+    margin: 0 2px;
+    border-radius: 2px;
+}
+
+li.repo{
+    border: 1px solid;
+    padding: 15px;
+}
+
+.repo a{
+    color: rgb(231, 158, 158);
+}
+
+.events a {
+    color: black;
+    transition: 0.6s;
+}
+
+li.events{
+    border: 1px solid black;
+}
+
+.events a:hover {
+    color: rgb(136, 136, 136);
+}
+
+span{
+    color: rgb(255, 255, 255);
+    display: inline-flexbox;
+    padding: 2px;
+}
+
+.repo:hover{
+    background-color: blueviolet;
+
+}
+
+h2{
+    margin: 25px;
+}
+
+input{
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+button{
+    width: 150px;
+    height: 25px;
+    border: 2px solid rgb(124, 124, 124);
+    border-radius: 5px;
+}
+
+p{
+    margin: 10px 0;
+}
